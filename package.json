@@ -1,0 +1,47 @@
+{
+  "name": "summerhacks-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for SOA Summer Hacks",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./bundler/webpack.prod.js",
+    "dev": "webpack serve --config ./bundler/webpack.dev.js"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "three": "^0.126.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.1.0",
+    "esbuild-loader": "^2.13.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.1",
+    "html-webpack-plugin": "^5.2.0",
+    "mini-css-extract-plugin": "^1.3.9",
+    "portfinder-sync": "0.0.2",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsahebgiri/summerhacks-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "threejs",
+    "webgl",
+    "minecraft"
+  ],
+  "author": "Saheb Giri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamsahebgiri/summerhacks-portfolio/issues"
+  },
+  "homepage": "https://github.com/iamsahebgiri/summerhacks-portfolio#readme"
+}
