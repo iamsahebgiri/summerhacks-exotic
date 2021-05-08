@@ -1,3 +1,9 @@
+/*==================================
+    BASE STYLE
+==================================*/
+/*-- GENERAL STYLES
+------------------------------*/
+
 *,
 :after,
 :before {
@@ -12,6 +18,8 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+/*-- SECTION STYLES
+------------------------------*/
 .headings {
   width: 100%;
   text-align: center;
@@ -43,6 +51,8 @@ body {
   padding: 0 1rem;
 }
 
+/*-- PROJECTS STYLES
+------------------------------*/
 section.projects-container {
   background: linear-gradient(#22d3ee, #0ea5e9);
   min-height: 100vh;
