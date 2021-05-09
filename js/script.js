@@ -334,7 +334,26 @@ function loop() {
   requestAnimationFrame(loop);
 }
 
+function displayConsole() {
+  console.log(
+    "%cSummerHacks Easter Egg",
+    'background: red; padding: 2px 8px; font-weight: bold; color: white; font-size: 1.5rem; text-transform: uppercase; font-family: "Barlow";'
+  );
+  console.log(
+    "%c🎉 Click me to remove my mask. 🎉",
+    "font-size: 1rem; font-family: 'Inter', 'arial';"
+  );
+  console.log(
+    "\n%cNOTE",
+    "background-color: black; padding: 2px 6px; color: white;"
+  );
+  console.log(
+    "Click doesn't work if responsive device toolbar in enabled. This is done to prevent scrolling issues in smartphone."
+  );
+}
+
 init();
 addLights();
 createMinecraft();
 loop();
+displayConsole();
