@@ -52,6 +52,62 @@ body {
   padding: 0 1rem;
 }
 
+/*-- MINECRAFT STYLES
+------------------------------*/
+
+#minecraft {
+  background-image: radial-gradient(#d946ef, #9333ea);
+  overflow: hidden;
+}
+
+#minecraft.noBreathe {
+  background-image: radial-gradient(#86efac, #22c55e);
+}
+
+section {
+  scroll-snap-align: start;
+}
+
+section.minecraft-container {
+  position: relative;
+}
+
+section.minecraft-container .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  padding: 2rem 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.overlay {
+  text-align: center;
+  color: #fff;
+}
+
+.introductions h1 {
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  font-family: "Barlow";
+}
+
+.introductions span {
+  color: #fcd34d;
+  font-weight: 500;
+}
+
+.social a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  margin-right: 0.4rem;
+}
+
 /*-- PROJECTS STYLES
 ------------------------------*/
 section.projects-container {
