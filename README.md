@@ -4,7 +4,7 @@
   <strong>48 hours programming hackathon</strong>
 </div>
 <div align="center">
-  A website made to learn <code>webgl</code> and <code>threejs</code>
+  A website made to learn <code>webpack 5</code> and <code>threejs</code>
 </div>
 
 <br />
@@ -49,6 +49,8 @@ HTML, CSS, Javascript, ThreeJS, Webpack and Esbuild
 - Add mdx blog support
 
 - Add updated resume
+
+- Add normal map to minecraft model
 
 
 ## Acknowledgements
